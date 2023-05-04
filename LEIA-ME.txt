@@ -1,0 +1,37 @@
+O car wash manager é um app para gerenciamento de lava-rápido/lava-jato feito em React Native.
+
+Front-End
+React/React Native
+expo
+react-native-modal
+react-native-modal-datetime-picker
+styled-components
+socket.io-client
+axios
+
+Back-End
+NodeJS
+express
+cors
+socket.io
+localtunnel 
+
+Observações
+É necessário ter o Expo instalado -> https://docs.expo.io/
+Use um emulador ou instale o app Expo Go no seu smartphone para rodar o projeto
+
+
+##Passo a passo para instalar o app em sua máquina
+Instale o node.js
+Faça download e Instale o react native via terminal e dps via terminal 
+Vá para o diretório cd car-wash-manager/mobile
+Rode npm install para instalar as dependências
+Rode expo start para iniciar o projeto e abrir o Metro Bundler no navegador
+Caso você tenha instalado o app Expo Go, com ele leia o qrcode que aparece no metro bundler
+
+*obs.: se tiver algum erro de inicializacão no Expo Go, mude a conexão de LAN para TUNNEL no metro bundler dentro do projeto
+
+##Para iniciar o back-end do projeto
+Vá para o diretório cd car-wash-manager/server
+Rode npm install para instalar as dependências
+Rode npm start para iniciar o servidor
